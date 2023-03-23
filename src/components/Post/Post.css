@@ -1,0 +1,12 @@
+.post{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* creates 3 columns with equal width */
+    grid-gap: 10px; /* adds a gap between grid items */
+}
+.first{
+    background-color: aqua;  
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid red;
+    border-radius: 20px;
+}
